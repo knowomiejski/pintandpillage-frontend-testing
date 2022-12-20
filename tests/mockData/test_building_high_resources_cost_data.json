@@ -1,7 +1,7 @@
 {
   "buildingId": 34,
   "description": "Produces stone for your village",
-  "level": 2,
+  "level": 1,
   "producesResources": false,
   "buildingLevelRequiredToLevelup": {},
   "constructionTimeLeft": "00:00:00",
@@ -13,7 +13,7 @@
     "y": 2
   },
   "resourcesRequiredLevelUp": {
-    "Wood": 25
+    "Wood": 2500000
   },
   "populationRequiredNextLevel": 10,
   "totalPopulationInUse": 7,

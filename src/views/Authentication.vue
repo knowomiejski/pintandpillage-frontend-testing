@@ -1,6 +1,6 @@
 <template>
   <div class="authentication">
-      <p style="margin-bottom: 0px">Version: 1.0.1</p>
+      <p data-test="versionNumberTestId" style="margin-bottom: 0px">Version: 1.0.1</p>
       <div class="headerLogin">
           <a @click="redirect('HomePage')" style="border-left: none !important; border-right: none !important">
               Home

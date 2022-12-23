@@ -20,7 +20,6 @@
                 <time-frame :required-time="currentBuilding.constructionTimeLeft"></time-frame>
                 <p>Building is under construction</p>
             </div>
-
         </div>
     </div>
 </template>
@@ -66,7 +65,6 @@
                 })
             },
             removeBuilding: function () {
-
                 this.$dialog.confirm('Are you sure you want to delete the level ' + this.currentBuilding.level + ' ' + this.currentBuilding.name + '?' +
                         'This action cannot be undone and no resources will be returned')
                         .then(() => {

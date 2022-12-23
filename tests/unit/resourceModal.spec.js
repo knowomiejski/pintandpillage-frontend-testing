@@ -1,4 +1,4 @@
-import {createLocalVue, mount, shallowMount} from "@vue/test-utils";
+import {createLocalVue, shallowMount} from "@vue/test-utils";
 import Vuex from "vuex";
 import ResourcesModal from "../../src/components/ui/modals/ResourcesModal";
 import LevelUpBuilding from "../../src/components/ui/LevelUpBuilding";
@@ -13,7 +13,7 @@ localVue.use(Vuex)
 beforeEach(() => {
     getters = {
         building: () => () => {
-                return require("./mockData/test_building_data.json")
+                return require("../mockData/test_building_data.json")
             }
     }
 
@@ -34,15 +34,17 @@ afterAll(() =>{
 
 describe('ResourcesModal', () => {
     it('should displays buildingName correctly when created', async () => {
-        const expectedText = "Mine - Lv 1"
-        const actualText = resourceModalWrapper.find("#buildingName").text()
+        const buildingNameTestId = '[data-test="buildingNameTestId"]'
+        const expectedText = "Mine - Lv 2"
+        const actualText = resourceModalWrapper.find(buildingNameTestId).text()
 
         expect(actualText).toBe(expectedText)
     });
 
     it('should displays resources per hour correctly when resources 80 stone per hour', async () => {
+        const buildingDescriptionTestId = '[data-test="buildingDescriptionTestId"]'
         const expectedText = "80 Stone / Hour"
-        const actualText = resourceModalWrapper.find("#buildingDescription").text()
+        const actualText = resourceModalWrapper.find(buildingDescriptionTestId).text()
 
         expect(actualText).toBe(expectedText)
     });

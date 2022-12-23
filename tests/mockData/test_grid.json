@@ -1,0 +1,1872 @@
+[
+    [
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "allowedBuilding": "Wall"
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 2,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 3,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 4,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 5,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 6,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 7,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 8,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 9,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 10,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 11,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 12,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 13,
+                "y": 0
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 14,
+                "y": 0
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 0
+            }
+        }
+    ],
+    [
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 1
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 4,
+                "y": 1
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 1
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 6,
+                "y": 1
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 7,
+                "y": 1
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 8,
+                "y": 1
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 9,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 1
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 12,
+                "y": 1
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 1
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 14,
+                "y": 1
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 1
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 2
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 1,
+                "y": 2
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 2,
+                "y": 2
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 2
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 6,
+                "y": 2
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 2
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 11,
+                "y": 2
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 12,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 2
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 14,
+                "y": 2
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 2
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 12,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 3
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 14,
+                "y": 3
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 3
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 4
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 1,
+                "y": 4
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 2,
+                "y": 4
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 4
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 4,
+                "y": 4
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 4
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 4
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 4
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 4
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 9,
+                "y": 4
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 4
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 4
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 12,
+                "y": 4
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 13,
+                "y": 4
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 14,
+                "y": 4
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 4
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 12,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 14,
+                "y": 5
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 5
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 6
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 1,
+                "y": 6
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 2,
+                "y": 6
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 6
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 6
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 5,
+                "y": 6
+            }
+        },
+        {
+            "buildingId": 35,
+            "description": "The main building of the village",
+            "level": 1,
+            "producesResources": false,
+            "buildingLevelRequiredToLevelup": {},
+            "constructionTimeLeft": "00:00:00",
+            "constructionTime": "00:01:15",
+            "levelupFinishedTime": null,
+            "constructionTimeSeconds": 75,
+            "position": {
+                "x": 6,
+                "y": 6
+            },
+            "resourcesRequiredLevelUp": {
+                "Wood": 20,
+                "Stone": 1250
+            },
+            "populationRequiredNextLevel": 13,
+            "totalPopulationInUse": 13,
+            "points": 10,
+            "name": "Headquarters",
+            "moralePerHour": 2,
+            "populationCapacity": 45,
+            "resourceCapacity": 750,
+            "lastTimeMoralUpped": "2022-12-22T15:32:12.6949046",
+            "isUnderConstruction": false
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 6
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 8,
+                "y": 6
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 6
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 6
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 11,
+                "y": 6
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 12,
+                "y": 6
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 6
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 14,
+                "y": 6
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 6
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 7
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 1,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 7
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 3,
+                "y": 7
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 7
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 9,
+                "y": 7
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 12,
+                "y": 7
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 7
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 14,
+                "y": 7
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 7
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 8
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 1,
+                "y": 8
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 8
+            }
+        },
+        {
+            "name": "WaterCornerTile",
+            "position": {
+                "x": 12,
+                "y": 8
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 8
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 8
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 8
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 9
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 7,
+                "y": 9
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 8,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 9
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 9
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 9
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 9
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 9
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 10
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 1,
+                "y": 10
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 2,
+                "y": 10
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 10
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 10
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 5,
+                "y": 10
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 10
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 7,
+                "y": 10
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 8,
+                "y": 10
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 10
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 10
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 11,
+                "y": 10
+            },
+            "allowedBuilding": "Harbor"
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 10
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 10
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 10
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 10
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 11
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 1,
+                "y": 11
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 11
+            }
+        },
+        {
+            "name": "WaterCornerTile",
+            "position": {
+                "x": 10,
+                "y": 11
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 11,
+                "y": 11
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 11
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 11
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 11
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 11
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 12
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 1,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 12
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 3,
+                "y": 12
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 12
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 10,
+                "y": 12
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 11,
+                "y": 12
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 12
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 12
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 12
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 12
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 0,
+                "y": 13
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 1,
+                "y": 13
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 2,
+                "y": 13
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 13
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 13
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 13
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 6,
+                "y": 13
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 7,
+                "y": 13
+            },
+            "allowedBuilding": null
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 13
+            }
+        },
+        {
+            "name": "BuildingTile",
+            "position": {
+                "x": 9,
+                "y": 13
+            },
+            "allowedBuilding": "Harbor"
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 10,
+                "y": 13
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 11,
+                "y": 13
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 13
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 13
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 13
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 13
+            }
+        }
+    ],
+    [
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 0,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 1,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 2,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 3,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_2",
+            "position": {
+                "x": 4,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 5,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 6,
+                "y": 14
+            }
+        },
+        {
+            "name": "NatureForest_1",
+            "position": {
+                "x": 7,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterCornerTile",
+            "position": {
+                "x": 8,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 9,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 10,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 11,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 12,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 13,
+                "y": 14
+            }
+        },
+        {
+            "name": "WaterTile",
+            "position": {
+                "x": 14,
+                "y": 14
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 14
+            }
+        }
+    ],
+    [
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 0,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 1,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 2,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 3,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 4,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 5,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 6,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 7,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 8,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 9,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 10,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 11,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 12,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 13,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 14,
+                "y": 15
+            }
+        },
+        {
+            "name": "BaseTile",
+            "position": {
+                "x": 15,
+                "y": 15
+            }
+        }
+    ]
+]

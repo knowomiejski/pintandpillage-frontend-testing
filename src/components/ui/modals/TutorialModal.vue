@@ -1,5 +1,5 @@
 <template>
-    <div class="tutorialBaseModal" @click="close" >
+    <div data-test="tutorialModalTestId" class="tutorialBaseModal" @click="close" >
         <div class="tutorialModalBackdrop" @click.stop>
            <div class="tutorialTextDiv">
                <h1>Elwrick Pintbreaker</h1>

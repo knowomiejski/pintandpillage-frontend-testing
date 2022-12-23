@@ -1,10 +1,10 @@
 <template>
-    <div :class="gridContainerClass"  v-dragscroll @wheel="zoom($event)" :style="{'transform': 'scale(' + currentZoom + ')'}">
+    <div data-test="villageGridTestId" :class="gridContainerClass"  v-dragscroll @wheel="zoom($event)" :style="{'transform': 'scale(' + currentZoom + ')'}">
         <div class="gridContainer">
             <div class="grid" v-if="grid" >
                 <div v-for="(cellLength, i) in gridLength" :key="cellLength.key" class="row">
                     <div v-for="(cellWidth, j)  in gridWidth" :key="cellWidth.key" class="tile">
-                        <component  v-bind:is="grid[i][j].name" @click.native="showModal(grid[i][j])" :buildingProperties="grid[i][j]" ></component>
+                        <component v-bind:is="grid[i][j].name" @click.native="showModal(grid[i][j])" :buildingProperties="grid[i][j]" ></component>
                     </div>
                 </div>
             </div>
@@ -58,6 +58,7 @@
                 this.buildBuildingTiles(village);
                 this.buildDecorativeTiles(village);
                 this.checkIfWallShouldBeShown(village);
+                console.log(this.grid)
             },
             checkIfWallShouldBeShown: function (village){
                 for (let i = 0; i < village.buildings.length; i++){

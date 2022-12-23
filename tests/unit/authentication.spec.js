@@ -27,6 +27,7 @@ localVue.use(Vuex)
 
 beforeEach(() => {
 
+
     getters = {
         building: () => () => {
             return require("../mockData/test_building_data.json")
@@ -51,8 +52,8 @@ afterAll(() => {
 describe('Authentication', () => {
     it('should render properly', async () => {
         const versionNumberTestId = '[data-test="versionNumberTestId"]'
-        const expectedVersionContent = '#Version: 1.0.1'
-        const versionElement = authenticationWrapper.find(versionNumberTestId)
+        const expectedVersionContent = 'Version: 1.0.1'
+        const versionElement = authenticationWrapper.find(versionNumberTestId).text()
         expect(versionElement).toContain(expectedVersionContent)
     })
 })

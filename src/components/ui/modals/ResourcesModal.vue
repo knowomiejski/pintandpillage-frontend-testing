@@ -3,9 +3,9 @@
         <div>
             <div class="resourceContainer" v-if="building.generatesResource">
                 <img v-bind:src="require('../../../assets/ui-items/' + building.generatesResource + '.png')" width="77px" height="70px"/>
-                <div class="resourceTitleContainer">
-                    <h1>{{building.name}} - Lv {{building.level}}</h1>
-                    <h2>{{building.resourcesPerHour}} {{building.generatesResource}} / Hour</h2>
+                <div data-test="buildingDescriptionContainerTestId" class="resourceTitleContainer">
+                    <h1 data-test="buildingNameTestId">{{building.name}} - Lv {{building.level}}</h1>
+                    <h2 data-test="buildingDescriptionTestId">{{building.resourcesPerHour}} {{building.generatesResource}} / Hour</h2>
                 </div>
             </div>
         </div>

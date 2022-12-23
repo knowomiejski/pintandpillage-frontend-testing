@@ -1,8 +1,8 @@
 <template>
-    <div class="constructionModal scrollerFirefox">
+    <div data-test="constructionModalTestId" class="constructionModal scrollerFirefox">
         <h1>Building List</h1>
         <hr style="width: 80%; margin-bottom: 10px">
-        <div class="buildingList">
+        <div data-test="buildingListTestId" class="buildingList">
             <div v-for="building in villageBuildings" :key="building.key">
                 <building-list-item :building="building" :position="position"  @close="close"></building-list-item>
             </div>

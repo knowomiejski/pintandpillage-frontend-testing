@@ -1,5 +1,5 @@
 <template>
-  <div class="village">
+  <div data-test="villageTestId" class="village">
       <modal
               v-if="isModalVisible"
               :buildingName="buildingName"

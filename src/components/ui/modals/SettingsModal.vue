@@ -4,7 +4,7 @@
             <div class="settingsButtonsList">
                 <button class="baseButton" @click="highscoreOpened = true">Highscores</button>
                 <button class="baseButton" @click="changeSeason()">Seasons: {{isSeasonsOn}}</button>
-                <button class="baseButton" @click="logOut">Logout</button>
+                <button data-test="logout-btn" class="baseButton" @click="logOut">Logout</button>
                 <button class="baseButton" id="settingsCloseButton" @click="close">Close</button>
             </div>
         </div>

@@ -90,21 +90,20 @@ describe('VillageGrid', () => {
         expect(villageGridWrapper.find(villageGridTestId).exists()).toBeTruthy()
     })
 
-    it('should emit toggleModal', async () => {
+    it('should emit toggleModal when tile is clickable', async () => {
         const firstBuildableTile = mockGrid[0][0]
         villageGridWrapper.setData({grid: mockGrid})
-        villageGridWrapper.vm.showModal(villageGridWrapper.vm.grid[0][0])
+        villageGridWrapper.vm.showModal(firstBuildableTile)
         await villageGridWrapper.vm.$nextTick()
         // emits return array arrays
         expect(villageGridWrapper.emitted().toggleModal[0]).toEqual([firstBuildableTile])
     })
-
-    it('should emit toggleModal', async () => {
-        const firstBuildableTile = mockGrid[0][0]
+    
+    it('should return false when tile is unclickable', async () => {
+        const expected = false;
+        const unBuildableTile = mockGrid[0][3]
         villageGridWrapper.setData({grid: mockGrid})
-        villageGridWrapper.vm.showModal(villageGridWrapper.vm.grid[0][0])
-        await villageGridWrapper.vm.$nextTick()
-        // emits return array arrays
-        expect(villageGridWrapper.emitted().toggleModal[0]).toEqual([firstBuildableTile])
+        const actual = villageGridWrapper.vm.showModal(unBuildableTile)
+        expect(actual).toBe(expected);
     })
 })

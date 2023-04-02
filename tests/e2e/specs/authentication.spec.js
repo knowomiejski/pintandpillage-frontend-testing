@@ -135,5 +135,44 @@ describe('Authentication', () => {
     cy.wait(500)
     cy.url().should('include', '/register')
     cy.get('.v-toast-error').contains('Username is already taken')
+  })    
+    
+  it('should not log in when the username is wrong', () => {
+    cy.get('#nav-login-btn').click()
+    cy.url().should('include', '/login')
+
+    cy.get('[data-test="username"]').type("wrongemail@mail.com")
+    cy.get('[data-test="password"]').type("SecureTest123!")
+
+    cy.get('[data-test="login-btn"]').click()
+    cy.get('.v-toast-error').contains('Invalid credentials')
+  })
+    
+  it('should display incompatible browser when launched on edge', () => {
+    cy.get('#nav-login-btn').click()
+    cy.url().should('include', '/login')
+
+    cy.get('uncompatibleBrowser').contains('We are detecting that you are currently not using a compatible browser for this application.')
+  })
+    
+  it('should not log in when the password is wrong', () => {
+    cy.get('#nav-login-btn').click()
+    cy.url().should('include', '/login')
+
+    cy.get('[data-test="username"]').type("test1@mail.com")
+    cy.get('[data-test="password"]').type("WrongPassword123!")
+
+    cy.get('[data-test="login-btn"]').click()
+    cy.get('.v-toast-error').contains('Invalid credentials')
+  })
+
+  it('should log in when the correct username and password are provided', () => {
+    cy.get('#nav-login-btn').click()
+    cy.url().should('include', '/login')
+
+    cy.get('[data-test="username"]').type("test1@mail.com")
+    cy.get('[data-test="password"]').type("SecureTest123!")
+
+    cy.get('[data-test="login-btn"]').click()
   })
 })

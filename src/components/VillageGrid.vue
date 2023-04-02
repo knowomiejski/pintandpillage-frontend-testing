@@ -4,7 +4,7 @@
             <div class="grid" v-if="grid" >
                 <div v-for="(cellLength, i) in gridLength" :key="cellLength.key" class="row">
                     <div v-for="(cellWidth, j)  in gridWidth" :key="cellWidth.key" class="tile">
-                        <component v-bind:is="grid[i][j].name" @click.native="showModal(grid[i][j])" :buildingProperties="grid[i][j]" ></component>
+                        <component v-bind:is="grid[i][j].name" :data-test="grid[i][j].name+j" @click.native="showModal(grid[i][j])" :buildingProperties="grid[i][j]" ></component>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                 this.setBuildingTiles(this.decorativeTiles)
             },
             showWall: function (){
-               this.setBuildingTiles(this.wallTiles)
+                this.setBuildingTiles(this.wallTiles)
             },
             setBuildingTiles: function (tileSet){
                 for (let i = 0; i < tileSet.length; i++) {

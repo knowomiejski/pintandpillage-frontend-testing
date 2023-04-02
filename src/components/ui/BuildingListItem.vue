@@ -1,11 +1,11 @@
 <template>
     <div data-test="buildingListItemTestId">
-        <div class="buildingListItemContainer" :class="{ disabledOverlay: !canBeBuild()}">
+        <div :data-test="'buildingList' + building.name" class="buildingListItemContainer" :class="{ disabledOverlay: !canBeBuild()}">
 
             <img class="buildingIcon" v-bind:src="require('../../assets/buildingIcons/' + building.name + '.png')"/>
 
             <div class="buildingInformationContainer">
-                <h1>{{building.name}}</h1>
+                <h1 data-test="buildingListItemBuildingNameId">{{building.name}}</h1>
                 <p id="buildingDescription">{{building.description}}</p>
 
                 <div style="display: flex; flex-direction: row;">
@@ -23,7 +23,7 @@
 
             </div>
 
-            <button data-test="buildingButtonTestId" :disabled="!canBeBuild()" @click="createBuilding(building.name)">Build</button>
+            <button data-test="buildingButtonTestId" :id="'buildingButtonTest'+building.name" :disabled="!canBeBuild()" @click="createBuilding(building.name)">Build</button>
 
         </div>
 
@@ -57,7 +57,6 @@
                 this.$emit('close');
             },
             canBeBuild: function() {
-                debugger
                 for (const [resource, amount] of Object.entries(this.building.resourcesRequiredLevelUp)) {
                     if(this.village.villageResources[resource] < amount){
                         return false;

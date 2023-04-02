@@ -11,7 +11,7 @@
             <button class="mapButton" @click="showWorldMap" :class="{villageButton : isOnWorldMap}"></button>
             <button class="combatButtonHeader" @click="showModal('Combat')" ></button>
             <button v-if="quests" v-bind:class="fetchQuestButtonCssClass()" @click="showModal('Quest')"></button>
-            <button class="settingsButton" @click="showModal('Settings')"></button>
+            <button class="settingsButton" data-test="settings-btn" @click="showModal('Settings')"></button>
             <button v-bind:class="fetchLogButtonCssClass()"
                     @click="showModalAndUpdateNewLogAvailableToFalse('Logs')"></button>
         </div>

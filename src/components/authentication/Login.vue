@@ -2,12 +2,12 @@
     <div class="login" @keydown.enter="login" v-if="isCompatibleBrowser()">
         <div class="loginBox">
             <div class="loginInputBox">
-                <input class="inputField" type="text" v-model.trim="username" placeholder="Username"/>
-                <input class="inputField" type="password" v-model.trim="password" placeholder="Password"/>
+                <input data-test="username" class="inputField" type="text" v-model.trim="username" placeholder="Username"/>
+                <input data-test="password" class="inputField" type="password" v-model.trim="password" placeholder="Password"/>
                 <a class="redirects" @click="updateRoute('ResetPassword')">Reset password</a>
 <!--              Add id to redirect -->
                 <a id="redirect-to-register" class="redirects" @click="updateRoute('Register')">Create new account</a>
-                <button class="submitButton" @click="login">Login</button>
+                <button data-test="login-btn" class="submitButton" @click="login">Login</button>
             </div>
         </div>
     </div>

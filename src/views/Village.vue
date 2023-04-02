@@ -71,7 +71,6 @@ export default {
             }
             this.allowedBuilding = tileData.allowedBuilding;
             this.position = tileData.position;
-
         },
         showSettings: function () {
             this.isModalVisible = false;

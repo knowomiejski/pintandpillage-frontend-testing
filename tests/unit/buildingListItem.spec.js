@@ -60,6 +60,7 @@ describe('BuildingListItem', () => {
 
     it('should dispatch createBuilding with the Mine properties when Build button is clicked', async () => {
         const buildingButtonTestId = '[data-test="buildingButtonTestId"]'
+        const position = { x: 0, y: 0 }
         const expectedDispatchCallObject = { "villageId": mockVillage.villageId, "buildingType": mockBuilding.name, "position": {"x": position.x, "y": position.y} }
 
         const buildButton = buildingListItemWrapper.find(buildingButtonTestId)

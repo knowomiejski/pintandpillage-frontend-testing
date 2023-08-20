@@ -12,8 +12,8 @@
                    I will help you getting started by giving you some objectives to complete, you can see those by clicking on the ! in the right corner. Time to get our new village rolling!
                </h2>
            </div>
-            <button class="baseButton" @click="nextPage" v-if="firstPage">Continue</button>
-            <button class="baseButton" @click="openQuestsLog" v-else>Lets do this!</button>
+            <button data-test="tutorialModalContinueButton" class="baseButton" @click="nextPage" v-if="firstPage">Continue</button>
+            <button data-test="tutorialModalLetsDoThisButton" class="baseButton" @click="openQuestsLog" v-else>Lets do this!</button>
         </div>
     </div>
 </template>

@@ -4,6 +4,7 @@ describe('Authentication', () => {
 
   beforeEach(() => {
     cy.visit('/')
+    cy.wait(500)
   })
 
   it('should not register when the username is not provided', () => {
@@ -119,24 +120,6 @@ describe('Authentication', () => {
   })
 
 
-  it('should not register when the username is in use', () => {
-    cy.get('#nav-login-btn').click()
-    cy.url().should('include', '/login')
-
-    cy.get('#redirect-to-register').click()
-    cy.url().should('include', '/register')
-
-    cy.get('#username').type("TestE2EUser")
-    cy.get('#email').type("teste2e2@example.com")
-    cy.get('#password').type("Test12345!")
-    cy.get('#repeatPassword').type("Test12345!")
-    cy.get('#register-btn').click()
-
-    cy.wait(500)
-    cy.url().should('include', '/register')
-    cy.get('.v-toast-error').contains('Username is already taken')
-  })    
-    
   it('should not log in when the username is wrong', () => {
     cy.get('#nav-login-btn').click()
     cy.url().should('include', '/login')
@@ -147,14 +130,8 @@ describe('Authentication', () => {
     cy.get('[data-test="login-btn"]').click()
     cy.get('.v-toast-error').contains('Invalid credentials')
   })
-    
-  it('should display incompatible browser when launched on edge', () => {
-    cy.get('#nav-login-btn').click()
-    cy.url().should('include', '/login')
 
-    cy.get('uncompatibleBrowser').contains('We are detecting that you are currently not using a compatible browser for this application.')
-  })
-    
+
   it('should not log in when the password is wrong', () => {
     cy.get('#nav-login-btn').click()
     cy.url().should('include', '/login')

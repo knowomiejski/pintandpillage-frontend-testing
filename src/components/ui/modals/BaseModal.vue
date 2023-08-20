@@ -3,7 +3,7 @@
         <div class="innerModalBox" @click.stop="">
             <div class="backdropInnderModal" >
                 <div class="closeButtonContainer">
-                    <button class="loginButton" id="modalButton" @click="close"> X </button>
+                    <button class="loginButton" data-test="closeBaseButton" id="modalButton" @click="close"> X </button>
                 </div>
                 <div class="compContainer">
                     <component v-bind:is="modalType" :position="position" :allowedBuilding="allowedBuilding" :buildingId="buildingId" :properties="properties" @close="close"></component>

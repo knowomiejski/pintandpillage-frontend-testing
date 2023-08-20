@@ -221,7 +221,8 @@ axios.interceptors.request.use(
 axios.interceptors.response.use(function (response) {
     return response
 }, function (error) {
-    if (error.response.status === 401) {
+    console.log('redirect logout?', router.currentRoute);
+    if (error.response.status === 401 && router.currentRoute.path !== '/login') {// <-- added
         store.dispatch('logout');
         router.push('/login')
     }else if (error.response.status === 500){

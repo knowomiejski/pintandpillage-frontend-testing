@@ -3,7 +3,7 @@
         <div class="innerModalBox" @click.stop="">
             <div class="backdropInnderModal" >
                 <div class="closeButtonContainer">
-                    <button class="loginButton" id="modalButton" @click="close"> X </button>
+                    <button class="loginButton" id="modalButton" data-test="closeLogButton" @click="close"> X </button>
                 </div>
                 <div class="compContainer">
                     <div class="logsContainer">
@@ -36,7 +36,7 @@
         methods:{
             close: function() {
                 this.$emit('close');
-            },          
+            },
        }
     }
 </script>

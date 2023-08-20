@@ -48,6 +48,7 @@ export default {
     },
     methods: {
         redirect: function(to) {
+        console.log('testing');
             if (this.$route.path !== '/'+ to.toLowerCase()){
                 this.$router.push('/' + to.toLowerCase());
                 this.componentName = to;

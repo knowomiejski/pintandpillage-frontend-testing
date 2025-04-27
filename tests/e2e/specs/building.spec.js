@@ -15,6 +15,8 @@ describe('Building', () => {
     })
 
     it('should open building modal when a building tile is clicked', () => {
+        cy.wait(1000)
+
         cy.get('[data-test="tutorialModalContinueButton"]').click()
         cy.get('[data-test="tutorialModalLetsDoThisButton"]').click()
         cy.get('[data-test="closeBaseButton"]').click()
@@ -27,6 +29,8 @@ describe('Building', () => {
     })
 
     it('should build house when building tile with buildable house is clicked', () => {
+        cy.wait(1000)
+
         cy.get('[data-test="BuildingTile2"]').first().click()
         cy.get('#buildingButtonTestHouse').first().click()
         cy.get('[data-test="settings-btn"]').click()
